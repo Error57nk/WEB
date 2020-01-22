@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/0b44cc4176.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="full-screen">
+      <div class="inner-box">
+        <div class="top"></div>
+        <div class="toggler">
+          <div class="ham">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+          </div>
+          <div class="menu-box">
+            <nav class="menu">
+              <ul class="menu-ul">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Art</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="logo">
+          <img src="logo.png" alt="" />
+        </div>
+        <div class="social">
+          <a href="mailto:nkkumarnk7@gmail.com"
+            ><i class="fas fa-envelope"></i
+          ></a>
+
+          <a href="https://www.linkedin.com/in/nitesh-kr/"
+            ><i class="fab fa-linkedin "></i>
+          </a>
+
+          <a href="https://github.com/Error57nk"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+        <div class="en-tag">
+          <h3 class="t p-color">En AR</h3>
+        </div>
+        <div class="main-body">
+          <div class="main-containt">
+            <p class="subs-font">THE</p>
+            <p class="big-text">M<span class="font-main">AYO</span>R</p>
+            <p class="lead">LUXURY PEN WITH OUD</p>
+            <div class="pen">
+              <img class="pen" src="pen.png" alt="" width="100%" />
+            </div>
+            <a href="" class="n-btn">Order now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.9.1.js"
+    ></script>
+    <script>
+      $(".ham").click(function() {
+        $(".menu-ul, .menu,.line-1,.line-2,.line-3").toggleClass("active");
+      });
+    </script>
+  </body>
+</html>
